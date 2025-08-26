@@ -1,0 +1,60 @@
+SVR: Server loop running PID: 1062472
+MAIN: fork client 1
+CLN1: PID 1062472 -snd- ECHO 1: Tue Aug 26 16:10:35 2025
+CLN1: Sent 32 characters, so far ...
+CLN1: PID 1062472 -rec- ECHO 1: Tue Aug 26 16:10:35 2025
+CLN1: PID 1062472 -snd- ECHO 2: Tue Aug 26 16:10:36 2025
+CLN1: Sent 32 characters, so far ...
+CLN1: PID 1062472 -rec- ECHO 2: Tue Aug 26 16:10:36 2025
+CLN1: PID 1062472 -snd- ECHO 3: Tue Aug 26 16:10:37 2025
+CLN1: Sent 32 characters, so far ...
+CLN1: PID 1062472 -rec- ECHO 3: Tue Aug 26 16:10:37 2025
+CLN1: PID 1062472 -snd- ECHO 4: Tue Aug 26 16:10:38 2025
+CLN1: Sent 32 characters, so far ...
+CLN1: PID 1062472 -rec- ECHO 4: Tue Aug 26 16:10:38 2025
+CLN1: PID 1062472 -snd- ECHO 5: Tue Aug 26 16:10:39 2025
+CLN1: Sent 32 characters, so far ...
+CLN1: PID 1062472 -rec- ECHO 5: Tue Aug 26 16:10:39 2025
+CLN1: PID 1062472 -snd- ECHO 6: Tue Aug 26 16:10:40 2025
+CLN1: Sent 32 characters, so far ...
+CLN1: PID 1062472 -rec- ECHO 6: Tue Aug 26 16:10:40 2025
+CLN1: PID 1062472 -snd- ECHO 7: Tue Aug 26 16:10:41 2025
+CLN1: Sent 32 characters, so far ...
+CLN1: PID 1062472 -rec- ECHO 7: Tue Aug 26 16:10:41 2025
+CLN1: PID 1062472 -snd- ECHO 8: Tue Aug 26 16:10:42 2025
+CLN1: Sent 32 characters, so far ...
+CLN1: PID 1062472 -rec- ECHO 8: Tue Aug 26 16:10:42 2025
+CLN1: PID 1062472 -snd- ECHO 9: Tue Aug 26 16:10:43 2025
+CLN1: Sent 32 characters, so far ...
+CLN1: PID 1062472 -rec- ECHO 9: Tue Aug 26 16:10:43 2025
+MAIN: fork client 2
+CLN2: PID 1062472 -snd- ECHO 1: Tue Aug 26 16:10:44 2025
+CLN2: Sent 32 characters, so far ...
+CLN2: PID 1062472 -rec- ECHO 1: Tue Aug 26 16:10:44 2025
+CLN2: PID 1062472 -snd- ECHO 2: Tue Aug 26 16:10:45 2025
+CLN2: Sent 32 characters, so far ...
+CLN2: PID 1062472 -rec- ECHO 2: Tue Aug 26 16:10:45 2025
+CLN2: PID 1062472 -snd- ECHO 3: Tue Aug 26 16:10:46 2025
+CLN2: Sent 32 characters, so far ...
+CLN2: PID 1062472 -rec- ECHO 3: Tue Aug 26 16:10:46 2025
+CLN2: PID 1062472 -snd- ECHO 4: Tue Aug 26 16:10:47 2025
+CLN2: Sent 32 characters, so far ...
+CLN2: PID 1062472 -rec- ECHO 4: Tue Aug 26 16:10:47 2025
+CLN2: PID 1062472 -snd- ECHO 5: Tue Aug 26 16:10:48 2025
+CLN2: Sent 32 characters, so far ...
+CLN2: PID 1062472 -rec- ECHO 5: Tue Aug 26 16:10:48 2025
+CLN2: PID 1062472 -snd- ECHO 6: Tue Aug 26 16:10:49 2025
+CLN2: Sent 32 characters, so far ...
+CLN2: PID 1062472 -rec- ECHO 6: Tue Aug 26 16:10:49 2025
+CLN2: PID 1062472 -snd- ECHO 7: Tue Aug 26 16:10:50 2025
+CLN2: Sent 32 characters, so far ...
+CLN2: PID 1062472 -rec- ECHO 7: Tue Aug 26 16:10:50 2025
+CLN2: PID 1062472 -snd- ECHO 8: Tue Aug 26 16:10:51 2025
+CLN2: Sent 32 characters, so far ...
+CLN2: PID 1062472 -rec- ECHO 8: Tue Aug 26 16:10:51 2025
+CLN2: PID 1062472 -snd- ECHO 9: Tue Aug 26 16:10:52 2025
+CLN2: Sent 32 characters, so far ...
+CLN2: PID 1062472 -rec- ECHO 9: Tue Aug 26 16:10:52 2025
+MAIN: shutdown server
+MAIN: shutdown client 1
+MAIN: shutdown client 2
