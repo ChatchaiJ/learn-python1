@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
+import os
 import sys
 import time
+import threading
 import socketserver
 
 SERVER_HOST = 'localhost'
@@ -30,12 +32,22 @@ class ServerHandler(socketserver.BaseRequestHandler):
 			time.sleep(0.1)
 		# after we return, the socket will be closed
 
-class MyTCPServer(socketserver.TCPServer):
+class MyTCPServer(socketserver.ForkingMixIn, socketserver.TCPServer, ):
 	allow_reuse_address = True
 
 with MyTCPServer( (SERVER_HOST, SERVER_PORT), ServerHandler) as server:
 	try:
-		server.serve_forever()
+
+		ip, port = server.server_address
+		server_thread = threading.Thread(target=server.serve_forever, daemon=False)
+		server_thread.start()
+		print(f"Server loop running PID: {os.getpid()} at {ip}:{port}")
+
+
+		server_thread.join()
+	
+
 	except KeyboardInterrupt:
 		print("\nServer shutting down")
+		server.shutdown()
 		sys.exit(0)
