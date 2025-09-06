@@ -10,7 +10,7 @@ SIOCGIFCONF = 0x8912	# from C library sockios.h
 STRUCT_SIZE_32 = 32
 STRUCT_SIZE_64 = 40
 PLATFORM_32_MAX_NUMBER = 2**32
-DEFAULT_INTERFACES = 8
+DEFAULT_INTERFACES = 10
 
 def	split_array(arr, size):
 	arrs = []
